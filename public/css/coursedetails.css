@@ -1,0 +1,146 @@
+body{
+ background-color: rgb(63, 66, 63);
+ color: white;
+    }
+    #commited{
+    
+    font-family: algerian;
+    border:8px ridge hotpink  ;
+    border-radius: 50px;
+    background-color: rgb(70, 5, 50) ;
+    opacity: 1;
+    padding: 2px 40px;
+    margin: 0px 20px;
+    font-weight: normal;
+    color:white;
+    
+    
+    }
+    .top-sub{
+       
+    
+        background-image: url("logobackground.jpg") ;
+        background-size:800px,500px ;
+        background-position:relative;
+        background-color:silver;
+    
+        align-items: center;
+    }
+    
+    
+    
+    .logopic{
+    
+        margin: 0px;
+    
+    }
+    #goodword ul {
+    font-family:  algerian ;
+    list-style-type: none;
+    color: green;
+    font-weight: bolder;
+
+    }
+    
+    
+    
+    
+    
+    
+    #goodword{
+        padding: 5px;
+        text-decoration:none ;
+  
+    margin:30px;
+    text-align: center;
+    border:5px gold ridge;
+    font-size: 1.3rem;
+    color:  gold;
+    line-height: 2rem;
+    border-radius: 10px;
+    list-style-type: square ;
+    background-image: url("downbackground.jpg");
+    
+    }
+
+
+    #nav{
+    padding : 10px 0px;
+    list-style-type: none;
+    line-height: 1.0rem;
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+    display: flex;
+    
+    
+    
+    }
+    #nav::before{
+    
+    content: "";
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+
+      
+    
+    
+    }
+    #nav li a:hover{
+    
+    
+    color:black;
+    background-color: blanchedalmond;
+    font-weight: bolder;
+    border-radius: 25px;
+    text-decoration: none;
+    
+    }
+    
+    
+    
+    #nav li a{
+        color: blanchedalmond;
+        display: block;
+        padding: 3px 10px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .table{
+    background-image: url("downbackground.jpg");
+text-align: center;
+border:2px solid green;
+font-weight: bold;
+text-align: center;
+
+
+}
+.table th,td{
+border:0.2rem solid green;
+padding: 1rem;
+}
+
+
+
+#note{
+    color:darkblue;
+    font-family: algerian;
+    background-image: url("logobackground.jpg");
+      margin:2rem;
+font-weight: bold;
+border-radius: 0.9rem;
+border:0.3REM SOLID blue;
+padding: 1rem;
+}
+
+    .footer{
+        color:white;
+        background-color:silver;
+        text-decoration: none;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    
+    }

@@ -1,0 +1,181 @@
+
+    
+    body{
+        list-style-type: none;
+        
+        background-image: url("bodybackgroun.jpg");
+        text-align: center;
+        
+        }
+    
+    .logopic{
+    
+        margin: 0px;
+    
+    }
+ 
+    
+    
+    
+    
+    
+.lowerbody{
+
+       text-align: center;
+    opacity: 1.2  ;
+    background-color: rgb(27, 33, 46);
+    background-size: auto;
+    
+    font-family:algerian;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    
+    
+    }
+    .lowerbody ul{
+    list-style-type: none;
+    
+    }
+    
+    
+   
+.btn{
+
+    padding: auto;
+    border: 5px solid brown;
+    border-radius: 15px;
+    background-color: rgb(199, 44, 139);
+    color: black;
+    
+    }
+    
+    .btn:hover{
+    background-color:rgb(199, 44, 139);
+    color: white;
+    
+    
+    }
+    
+  
+ 
+
+
+
+    #nav{
+        padding : 10px ;
+        list-style-type: none;
+        line-height: 1.0rem;
+        text-align: center;
+        background-color: grey;
+        border-radius: 30px;
+        opacity: 0.8;
+
+  
+    }
+    #nav::before{
+    
+  
+        
+content: "";
+
+position: absolute;
+height: 100%;
+width: 100%;
+z-index: -1;
+opacity: 0.9;
+
+    
+    
+    }
+    #nav li a:hover{
+    
+
+        color:black;
+        background-color: blanchedalmond;
+        font-weight: bolder;
+        border-radius: 1rem;
+        text-decoration: none;
+        
+    
+    }
+    
+    
+    
+    #nav li a{
+        color: blanchedalmond;
+        display: block;
+        padding: 3px 10px;
+        text-align: center;
+    }
+    
+    
+    
+    .s-middle-content-text-sub{
+    
+    padding-top: 10px ;
+    color: gold;
+    font-size: 1.5rem;
+    font-family: algerian ;
+    
+    
+    
+    }
+    .s-middle-content-text-sub ul {
+        list-style-type: none;
+       
+    }
+    
+    
+    
+
+    
+   
+    
+    
+    
+    
+    
+    
+    .top-sub ul {
+        display: flex;
+    
+        
+    }
+    .top-sub ul li{
+    font-size: 0.9rem;
+    
+    
+    
+    }
+    
+    .sub input {
+    border:2px ridge black ;
+    
+    }
+    
+    
+    
+    #h1{
+    color: aqua;
+    text-decoration: none;
+    font-family:algerian;
+    }
+    
+    
+    .top-sub ul li a{
+    
+    display: block;
+    padding: 0px 45px 0px 0px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+    
+    
+    }
+    .footer{
+        color:white;
+        background-color:silver;
+        text-decoration: none;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    }

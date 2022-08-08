@@ -1,0 +1,85 @@
+body{
+    list-style-type: none;
+    
+    
+    text-align: center;
+    
+    }
+  
+
+    
+    
+    .logopic{
+    
+        margin: 0px;
+    
+    }
+    #goodword ul {
+    font-family:  algerian ;
+    list-style-type: none;
+    color: green;
+    font-weight: bolder;
+
+    }
+    
+    
+    
+    
+    
+    
+    #nav{
+        padding : 10px ;
+        list-style-type: none;
+        line-height: 1.0rem;
+        text-align: center;
+        background-color: grey;
+        border-radius: 30px;
+        opacity: 0.8;
+
+  
+    }
+    #nav::before{
+    
+  
+        
+content: "";
+
+position: absolute;
+height: 100%;
+width: 100%;
+z-index: -1;
+opacity: 0.9;
+
+    
+    
+    }
+    #nav li a:hover{
+    
+
+        color:black;
+        background-color: blanchedalmond;
+        font-weight: bolder;
+        border-radius: 1rem;
+        text-decoration: none;
+        
+    
+    }
+    
+    
+    
+    #nav li a{
+        color: blanchedalmond;
+        display: block;
+        padding: 3px 10px;
+        text-align: center;
+    }
+    
+      .tnc{
+
+background: rgb(1, 1, 2);
+text-align: left;
+color:white;
+
+
+      }
+  
